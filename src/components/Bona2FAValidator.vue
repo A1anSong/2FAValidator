@@ -7,7 +7,7 @@
             <span>2FA生成器 by A1an</span>
             <el-progress type="circle" :stroke-width="4" :width="48" :percentage="secondsLeft/30*100" :color="colors">
               <template #default="percentage">
-                <span>{{ secondsLeft }}s</span>
+                <span style="font-size: var(--el-font-size-base)">{{ secondsLeft }}s</span>
               </template>
             </el-progress>
           </div>
