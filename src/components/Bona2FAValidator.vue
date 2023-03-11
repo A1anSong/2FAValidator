@@ -1,6 +1,6 @@
 <template>
   <el-row justify="center">
-    <el-col :span="12">
+    <el-col :span="22">
       <el-card shadow="hover">
         <template #header>
           <div class="card-header">
@@ -12,7 +12,7 @@
             </el-progress>
           </div>
         </template>
-        <el-form label-position="right" label-width="120px">
+        <el-form label-position="right" label-width="100px">
           <el-form-item label="密钥：">
             <el-input v-model.trim="secret"/>
           </el-form-item>
